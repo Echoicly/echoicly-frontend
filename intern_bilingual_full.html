@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoicly Intern Idebank</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #f2f2f2;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .hidden { display: none; }
+    .password-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    input[type="password"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-right: 0.5rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #00ffd5;
+    }
+    ul {
+      margin-left: 1rem;
+      padding-left: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .column {
+      background-color: #1c1c1c;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .column h1 {
+      color: #00ffd5;
+    }
+  </style>
+  <script>
+    function checkPassword() {
+      const input = document.getElementById("pw").value;
+      if (input === "lagethune123") {
+        document.getElementById("content").classList.remove("hidden");
+        document.getElementById("login").classList.add("hidden");
+      } else {
+        alert("Feil passord.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="login" class="password-container">
+    <h1>Echoicly – Internside</h1>
+    <p>Skriv inn passord for å vise innholdet:</p>
+    <input type="password" id="pw" placeholder="Passord">
+    <button onclick="checkPassword()">Logg inn</button>
+  </div>
+
+  <div id="content" class="hidden">
+    <div class="grid">
+      <div class="column">
+        <h1>Echoicly – Idebank og kjernefunksjoner</h1>
+        <p><em>Et rettferdig og transparent alternativ til dagens strømmetjenester</em></p>
+        <h2>1. Fordeling av inntekter</h2>
+        <ul>
+          <li>Abonnementspris: 199 kr/mnd</li>
+          <li>10 % til administrasjon, 90 % til artister brukeren lytter til</li>
+          <li>Valg mellom fordeling per låt eller per minutt</li>
+        </ul>
+        <h2>2. Ekstra støtte til artister</h2>
+        <ul>
+          <li>Brukere kan gi ekstra bidrag når som helst</li>
+          <li>100 % går til artisten – ingen gebyr</li>
+          <li>Oversikt over hvem man har støttet</li>
+        </ul>
+        <h2>3. Gjennomsiktighet og rapportering</h2>
+        <ul>
+          <li>Månedlig rapport over lytting og utbetaling</li>
+          <li>Grafer og forklaringer</li>
+          <li>Full transparens for både bruker og artist</li>
+        </ul>
+        <h2>4. Brukermakt og demokratisering</h2>
+        <ul>
+          <li>Brukeren velger hvordan penger fordeles</li>
+          <li>Favoriserte artister kan få større andel</li>
+          <li>Innsyn i økonomien og prinsippene bak</li>
+        </ul>
+        <h2>5. Overskudd og fellesmidler</h2>
+        <ul>
+          <li>Fan-styrt bonusordning eller musikkfond</li>
+          <li>Brukerstyrt stemmegivning</li>
+        </ul>
+        <h2>6. Merch og direkte salg</h2>
+        <ul>
+          <li>Artister kan selge merch i appen</li>
+          <li>Echoicly tar ingen provisjon</li>
+          <li>Kjøpet vises som støtte til artisten</li>
+        </ul>
+        <h2>7. App og brukeropplevelse</h2>
+        <ul>
+          <li>Artistprofiler, spillelister og nylig lyttet</li>
+          <li>“Min konto” med inntektsoversikt</li>
+          <li>Interaktive funksjoner og tilpasninger</li>
+        </ul>
+        <h2>8. Artist-fan-relasjon og fordeler</h2>
+        <ul>
+          <li>Direkte kontakt mellom artist og fans</li>
+          <li>Topplyttere får fordeler og tidlig tilgang</li>
+        </ul>
+        <h2>9. Artistverktøy og innsikt</h2>
+        <ul>
+          <li>Dashboard for inntekter og lyttere</li>
+          <li>Mulighet til å kontakte fans, laste opp merch</li>
+        </ul>
+        <h2>10. Fellesskap og deling</h2>
+        <ul>
+          <li>Dele spillelister og støtte sammen</li>
+          <li>Følge venner (valgfritt)</li>
+        </ul>
+        <h2>11. Lek og engasjement</h2>
+        <ul>
+          <li>Merker og poeng for støtte og lytting</li>
+          <li>Ukentlige utfordringer</li>
+        </ul>
+        <h2>12. Etisk teknologi</h2>
+        <ul>
+          <li>Ingen salg av data</li>
+          <li>Brukeren eier sine egne data</li>
+        </ul>
+        <h2>13. Miljø og bærekraft</h2>
+        <ul>
+          <li>Lavoppløselig lyd og lokal caching</li>
+          <li>Klimamerking av musikk og prosjekter</li>
+          <li>Grønn teknologi og serverdrift som ideal</li>
+        </ul>
+      </div>
+
+      <div class="column">
+        <h1>Echoicly – Idea Bank and Core Features</h1>
+        <p><em>A fair and transparent alternative to today’s music streaming platforms</em></p>
+        <h2>1. Revenue Distribution</h2>
+        <ul>
+          <li>Subscription price: 199 NOK/month</li>
+          <li>10% goes to administration and operations</li>
+          <li>90% is paid directly to the artists the user listens to</li>
+          <li>Choice between per-song or per-minute models</li>
+        </ul>
+        <h2>2. Extra Support to Artists</h2>
+        <ul>
+          <li>Users can give additional support to artists at any time</li>
+          <li>100% goes directly to the artist – no fee</li>
+          <li>Overview of supported artists</li>
+        </ul>
+        <h2>3. Transparency and Reporting</h2>
+        <ul>
+          <li>Monthly report on listening and distribution</li>
+          <li>Graphs and explanations</li>
+          <li>Full transparency for both users and artists</li>
+        </ul>
+        <h2>4. User Control and Democratization</h2>
+        <ul>
+          <li>Users choose how their money is distributed</li>
+          <li>Favorited artists can receive more</li>
+          <li>Insight into the economy and principles</li>
+        </ul>
+        <h2>5. Surplus and Community Funds</h2>
+        <ul>
+          <li>Fan-guided bonus scheme or music fund</li>
+          <li>User voting on how to allocate surplus</li>
+        </ul>
+        <h2>6. Merch and Direct Sales</h2>
+        <ul>
+          <li>Artists can sell merch through the app</li>
+          <li>No commission taken by Echoicly</li>
+          <li>Purchase displayed as artist support</li>
+        </ul>
+        <h2>7. App and User Experience</h2>
+        <ul>
+          <li>Artist profiles, playlists, and recent listening</li>
+          <li>“My account” with income overview</li>
+          <li>Interactive features and personalization</li>
+        </ul>
+        <h2>8. Artist–Fan Relationship and Benefits</h2>
+        <ul>
+          <li>Direct contact between artists and fans</li>
+          <li>Top listeners get perks and early access</li>
+        </ul>
+        <h2>9. Artist Tools and Insights</h2>
+        <ul>
+          <li>Dashboard for income and listener data</li>
+          <li>Send messages, upload merch</li>
+        </ul>
+        <h2>10. Community and Sharing</h2>
+        <ul>
+          <li>Share playlists and support artists together</li>
+          <li>Optionally follow friends</li>
+        </ul>
+        <h2>11. Play and Engagement</h2>
+        <ul>
+          <li>Badges and points for support and listening</li>
+          <li>Weekly challenges</li>
+        </ul>
+        <h2>12. Ethical Technology</h2>
+        <ul>
+          <li>No data selling</li>
+          <li>Users fully own their data</li>
+        </ul>
+        <h2>13. Environment and Sustainability</h2>
+        <ul>
+          <li>Low-res streaming and local caching</li>
+          <li>Climate labeling for music projects</li>
+          <li>Green tech and server practices</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

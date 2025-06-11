@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content=device-width, initial-scale=1.0">
+  <title>Echoicly Internal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #f2f2f2;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .hidden { display: none; }
+    .password-container {
+      text-align: center;
+      margin-top: 100px;
+    }
+    input[type="password"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      margin-right: 0.5rem;
+    }
+    button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    h2 { margin-top: 2rem; color: #00ffd5; }
+    ul { margin-left: 1rem; }
+  </style>
+  <script>
+    function checkPassword() {
+      const input = document.getElementById("pw").value;
+      if (input === "lagethune123") {
+        document.getElementById("content").classList.remove("hidden");
+        document.getElementById("login").classList.add("hidden");
+      } else {
+        alert("Incorrect password.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="login" class="password-container">
+    <h1>Echoicly – Internal Area</h1>
+    <p>Enter password to access the content:</p>
+    <input type="password" id="pw" placeholder="Password">
+    <button onclick="checkPassword()">Log in</button>
+  </div>
+
+  <div id="content" class="hidden">
+    <!-- Paste full English content here -->
+    <h1 style="color: #00ffd5;">Echoicly – Idea Bank and Core Features</h1>
+    <p><em>A fair and transparent alternative to today’s music streaming platforms</em></p>
+
+    <h2>1. Revenue Distribution</h2>
+    <ul>
+      <li>Subscription price: 199 NOK/month</li>
+      <li>10% goes to administration and operations</li>
+      <li>90% is paid directly to the artists the user listens to</li>
+      <li>Two distribution models:
+        <ul>
+          <li>Per song</li>
+          <li>Per minute listened</li>
+        </ul>
+      </li>
+      <li>Users choose their preferred model</li>
+    </ul>
+
+    <h2>2. Extra Support to Artists</h2>
+    <ul>
+      <li>Users can give additional support to artists at any time</li>
+      <li>100% of extra amounts go directly to the artist – no fees</li>
+      <li>Personal overview of which artists the user has supported</li>
+    </ul>
+
+    <h2>3. Transparency and Reporting</h2>
+    <ul>
+      <li>Monthly report for each user:
+        <ul>
+          <li>Listening patterns and artist payments</li>
+          <li>What the administration share has been used for</li>
+        </ul>
+      </li>
+      <li>Visual graphs and pedagogical explanations</li>
+      <li>Full transparency for both users and artists</li>
+    </ul>
+
+    <h2>4. User Control and Democratization</h2>
+    <ul>
+      <li>Users control how their subscription fee is distributed</li>
+      <li>Option to prioritize favorite artists</li>
+      <li>Insights into the system’s mechanisms and principles</li>
+    </ul>
+
+    <h2>5. Surplus and Community Funds</h2>
+    <ul>
+      <li>Any surplus (after admin costs) may be:
+        <ul>
+          <li>Returned to artists through a fan-guided reward scheme</li>
+          <li>Used for music promotion or support funds</li>
+        </ul>
+      </li>
+      <li>Users can vote on how the surplus should be allocated</li>
+    </ul>
+
+    <h2>6. Merch and Direct Sales</h2>
+    <ul>
+      <li>Artists can sell merch directly through the app</li>
+      <li>No commission taken by Echoicly</li>
+      <li>Purchases are shown as direct support to the artist</li>
+    </ul>
+
+    <h2>7. App and User Experience</h2>
+    <ul>
+      <li>Modern, clean, and intuitive app design</li>
+      <li>Includes:
+        <ul>
+          <li>Artist profiles</li>
+          <li>Playlists and recommendations</li>
+          <li>Recently listened section</li>
+          <li>“My account” with financial breakdown</li>
+        </ul>
+      </li>
+      <li>Interactive features for support, merch and customization</li>
+    </ul>
+
+    <h2>8. Artist–Fan Relationships and Rewards</h2>
+    <ul>
+      <li>Artists can message fans directly in the app (e.g. thanks, previews, announcements)</li>
+      <li>Top listeners receive exclusive benefits:
+        <ul>
+          <li>Early access to tickets and merch</li>
+          <li>Special edition content</li>
+        </ul>
+      </li>
+      <li>Strengthens loyalty and emotional bond between listener and artist</li>
+    </ul>
+
+    <h2>9. Artist Tools and Insights</h2>
+    <ul>
+      <li>Artist dashboard includes:
+        <ul>
+          <li>Real-time income and listener stats</li>
+          <li>Ability to communicate with fans</li>
+          <li>Upload merch and manage artist page</li>
+        </ul>
+      </li>
+      <li>Simple and accessible interface for all artists</li>
+    </ul>
+
+    <h2>10. Community and Sharing</h2>
+    <ul>
+      <li>Users can:
+        <ul>
+          <li>Share playlists and causes</li>
+          <li>Invite friends to support artists together</li>
+          <li>Optionally follow others and see their listening activity</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>11. Play and Engagement</h2>
+    <ul>
+      <li>Gamification through badges/points for:
+        <ul>
+          <li>Supporting artists</li>
+          <li>Discovering new music</li>
+          <li>Sharing content</li>
+        </ul>
+      </li>
+      <li>Weekly challenges or campaigns</li>
+      <li>Collectible fan items (e.g. digital fan badges)</li>
+    </ul>
+
+    <h2>12. Ethical Technology</h2>
+    <ul>
+      <li>No sale of user data to third parties</li>
+      <li>Users fully own their data – downloadable and deletable</li>
+      <li>Transparent use of all data and revenue models</li>
+    </ul>
+
+    <h2>13. Environment and Sustainability</h2>
+    <ul>
+      <li>Optional low-res streaming for reduced data use</li>
+      <li>Local caching to minimize bandwidth</li>
+      <li>Climate labeling for eco-aware music projects</li>
+      <li>Portion of surplus can be allocated to green initiatives</li>
+      <li>Green technology and hosting as guiding principles</li>
+    </ul>
+  </div>
+</body>
+</html>
